@@ -1,0 +1,253 @@
+body{
+    background-color: #FFA16C;
+}
+
+.partner{
+    color: #FFA16C;
+    text-shadow: 2px 2px 15px #E9E9E9;
+}
+
+.main-container{
+    display: flex;
+}
+
+.leftbar{
+    background-color: #FFFFFF;
+    display: inline-block;
+    height: 650px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    margin: auto;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.linkcontainer{
+    display: grid;
+    grid-gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #FFA16C;
+}
+
+.rightbar{
+    display: inline-block;
+    height: 650px;
+}
+
+.topbar{
+    height: 70px;
+    width: 1210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 12px;
+    box-shadow: 0px 2px 5px black
+}
+
+.booking{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFA16C;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.booking:hover{
+    background-color: #ff9557;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.icon-container{
+    background-color: #F1F1F1;
+    height: 39px;
+    width: 35px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    border-right: none;
+    width: 230px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #F1F1F1;
+    outline: none;
+    border-radius: 0 15px 15px 0;
+}
+
+.search-button{
+    width: 110px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+     border: none;
+     color: #FFFFFF;
+     background-color: #FFA16C;
+}
+
+.search-button:hover{
+    background-color: #ff9557;
+}
+
+.cart{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.language{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.language:hover{
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+}
+
+.profile{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #3C3C3C;
+    color: #3C3C3C;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.profile:hover{
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+}
+
+.bottombar{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    height: 570px;
+}
+
+.minicontainer{
+    display: flex;
+    padding: 30px;
+}
+
+.left{
+    display: inline-block;
+    
+    width: 55%;
+
+}
+
+.lefttop{
+    display: block;
+    margin: 15px;
+    margin-top: 0;
+    height:265px;
+    width: 600px;
+}
+
+.leftbotton{
+    margin: 15px;
+    width: 600px;
+    height: 210px;
+}
+
+.right{
+    
+    display: inline-block;
+    width: 45%;
+}
+
+.righttop{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.partnerimg{
+    width: 90px;
+    height: 120px;
+}
+
+.rightbotton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3B3B3;
+    height: 210px;
+    width: 340px;
+    border-radius: 25px;
+    border: #FFA16C solid ;
+    margin-top: 35px;
+}
+
+.mapdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3B3B3;
+    height: 210px;
+    width: 340px;
+    border-radius: 25px;
+    border: #FFA16C solid ;
+    margin-top: 35px;
+}
+
+.map{
+    opacity: 70%;
+    height: 210px;
+    width: 340px;
+    border-radius: 26px;
+}

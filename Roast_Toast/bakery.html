@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bakery</title>
+        <link rel="stylesheet" href="bakery.css">
+        <link rel="stylesheet" href="history.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="leftbar">
+                <img class="logo" onclick="location.href='Roast&Toast_home.html';" src="R&Timgs/logo.png" alt="LOGO">
+                <div class="linkcontainer">
+                    <a href="Roast&Toast_home.html">Home</a>
+                    <a href="menu.html" class="menu">Menu</a>
+                    <a href="history.html">History</a>
+                    <a href="partner.html">Partner</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="rightbar">
+                <div class="topbar">
+                    <button class="booking" onclick="location.href='booking.html';"><i class="fa-regular fa-calendar book"></i>Book Here</button>
+                    <div class="search-container">
+                        <span class="icon-container">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3C3C3C" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg>
+                        </span>
+                        <input class="search" type="text" placeholder="Search...">
+                    <button class="search-button">Search</button>
+                    </div>
+                    <a href="cart.html"><button class="cart"><i class="fa-solid fa-cart-shopping book"></i>Your Cart</button></a>
+                    <select class="language" name="Languages" id="">
+                        <option value="eng" selected>ENG</option>
+                        <option value="myan">MMR</option>
+                        <option value="thai">THA</option>
+                        <option value="china">CHN</option>
+                    </select>
+                    <a href="register.html"><button class="profile"><i class="fa-solid fa-user book"></i>Your Profile</button></a>
+                </div>
+                <div class="bottombar">
+                    <div class="btncontainer">
+                        <button class="topbtn" onclick="location.href='menu.html';">Coffee</button>
+                        <button class="topbtn" onclick="location.href='tea.html';">Tea</button>
+                        <button class="topbtn here" onclick="location.href='bakery.html';">Bakery</button>
+                        <button class="topbtn" onclick="location.href='dessert.html';">Dessert</button>
+                    </div>
+                    <div class="items">
+                        <div class="items-container">
+                            <div class="lefti">
+                                <div class="bakerycontainer">
+                                    <img class="bakery" src="R&Timgs/bakery.png" alt="">
+                                </div>
+                                <div class="sizecontainer">
+                                    <p class="size">SIZE</p>
+                                </div>
+                                <div class="numberbtn">
+                                    <button class="lrbtn"><svg class="arrowicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                      </svg></button>
+                                    <span>1</span>
+                                    <button class="lrbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                      </svg></button>
+                                </div>
+                            </div>
+                            <div class="righti">
+                                <p class="bakeryc">Croissant</p>
+                                <p class="price">$4.98</p>
+                                <p class="flavour">Golden layers and buttery perfection, offers a melt-in-your-mouth experience that keeps customers coming back for more.</p>
+                                    <button class="addcart">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="items-container">
+                            <div class="lefti">
+                                <div class="bakerycontainer">
+                                    <img class="bakery" src="R&Timgs/bakery.png" alt="">
+                                </div>
+                                <div class="sizecontainer">
+                                    <p class="size">SIZE</p>
+                                </div>
+                                <div class="numberbtn">
+                                    <button class="lrbtn"><svg class="arrowicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                      </svg></button>
+                                    <span>1</span>
+                                    <button class="lrbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                      </svg></button>
+                                </div>
+                            </div>
+                            <div class="righti">
+                                <p class="bakeryc">Croissant</p>
+                                <p class="price">$4.98</p>
+                                <p class="flavour">Golden layers and buttery perfection, offers a melt-in-your-mouth experience that keeps customers coming back for more.</p>
+                                    <button class="addcart">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="items-container">
+                            <div class="lefti">
+                                <div class="bakerycontainer">
+                                    <img class="bakery" src="R&Timgs/bakery.png" alt="">
+                                </div>
+                                <div class="sizecontainer">
+                                    <p class="size">SIZE</p>
+                                </div>
+                                <div class="numberbtn">
+                                    <button class="lrbtn"><svg class="arrowicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                      </svg></button>
+                                    <span>1</span>
+                                    <button class="lrbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                      </svg></button>
+                                </div>
+                            </div>
+                            <div class="righti">
+                                <p class="bakeryc">Croissant</p>
+                                <p class="price">$4.98</p>
+                                <p class="flavour">Golden layers and buttery perfection, offers a melt-in-your-mouth experience that keeps customers coming back for more.</p>
+                                    <button class="addcart">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="items-container">
+                            <div class="lefti">
+                                <div class="bakerycontainer">
+                                    <img class="bakery" src="R&Timgs/bakery.png" alt="">
+                                </div>
+                                <div class="sizecontainer">
+                                    <p class="size">SIZE</p>
+                                </div>
+                                <div class="numberbtn">
+                                    <button class="lrbtn"><svg class="arrowicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                      </svg></button>
+                                    <span>1</span>
+                                    <button class="lrbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                      </svg></button>
+                                </div>
+                            </div>
+                            <div class="righti">
+                                <p class="bakeryc">Croissant</p>
+                                <p class="price">$4.98</p>
+                                <p class="flavour">Golden layers and buttery perfection, offers a melt-in-your-mouth experience that keeps customers coming back for more.</p>
+                                    <button class="addcart">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="items-container">
+                            <div class="lefti">
+                                <div class="bakerycontainer">
+                                    <img class="bakery" src="R&Timgs/bakery.png" alt="">
+                                </div>
+                                <div class="sizecontainer">
+                                    <p class="size">SIZE</p>
+                                </div>
+                                <div class="numberbtn">
+                                    <button class="lrbtn"><svg class="arrowicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                      </svg></button>
+                                    <span>1</span>
+                                    <button class="lrbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                      </svg></button>
+                                </div>
+                            </div>
+                            <div class="righti">
+                                <p class="bakeryc">Croissant</p>
+                                <p class="price">$4.98</p>
+                                <p class="flavour">Golden layers and buttery perfection, offers a melt-in-your-mouth experience that keeps customers coming back for more.</p>
+                                    <button class="addcart">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="items-container">
+                            <div class="lefti">
+                                <div class="bakerycontainer">
+                                    <img class="bakery" src="R&Timgs/bakery.png" alt="">
+                                </div>
+                                <div class="sizecontainer">
+                                    <p class="size">SIZE</p>
+                                </div>
+                                <div class="numberbtn">
+                                    <button class="lrbtn"><svg class="arrowicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                      </svg></button>
+                                    <span>1</span>
+                                    <button class="lrbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                      </svg></button>
+                                </div>
+                            </div>
+                            <div class="righti">
+                                <p class="bakeryc">Croissant</p>
+                                <p class="price">$4.98</p>
+                                <p class="flavour">Golden layers and buttery perfection, offers a melt-in-your-mouth experience that keeps customers coming back for more.</p>
+                                    <button class="addcart">Add to cart</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+    </body>
+</html>

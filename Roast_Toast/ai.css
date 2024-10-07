@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 4rem; /* Large font size */
+    font-weight: bold;
+    color: black; /* Default text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* Apply different effects to specific letters */
+.letter-t {
+    position: relative;
+    color: black;
+}
+
+/* Adding the smoke icon above 'T' */
+.letter-t:before {
+    content: url('path-to-smoke-icon.png'); /* Replace with the actual path to your smoke icon */
+    position: absolute;
+    top: -40px;
+    left: -10px;
+}
+
+/* Style for the 'A' with the coffee icon */
+.letter-a:last-child {
+    color: #A0522D; /* Brown color for the 'A' */
+    position: relative;
+}
+
+.letter-a:last-child:after {
+    content: url('path-to-coffee-icon.png'); /* Replace with actual path to the coffee cup image */
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+}
+
+/* Text Shadow for the reflection effect */
+.logo span {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+Copy code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    width: 200px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #fda66a;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #ff7a42;
+}
+
+.search-container input:focus {
+    border-color: #ff7a42;
+}

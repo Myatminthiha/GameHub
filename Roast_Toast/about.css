@@ -1,0 +1,269 @@
+body{
+    background-color: #FFA16C;
+}
+
+.about{
+    color: #FFA16C;
+    text-shadow: 2px 2px 15px #E9E9E9;
+}
+
+.main-container{
+    display: flex;
+}
+
+.leftbar{
+    background-color: #FFFFFF;
+    display: inline-block;
+    height: 650px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    margin: auto;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.linkcontainer{
+    display: grid;
+    grid-gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #FFA16C;
+}
+
+.rightbar{
+    display: inline-block;
+    height: 650px;
+}
+
+.topbar{
+    height: 70px;
+    width: 1210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 12px;
+    box-shadow: 0px 2px 5px black
+}
+
+.booking{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFA16C;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.booking:hover{
+    background-color: #ff9557;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.icon-container{
+    background-color: #F1F1F1;
+    height: 39px;
+    width: 35px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    border-right: none;
+    width: 230px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #F1F1F1;
+    outline: none;
+    border-radius: 0 15px 15px 0;
+}
+
+.search-button{
+    width: 110px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+     border: none;
+     color: #FFFFFF;
+     background-color: #FFA16C;
+}
+
+.search-button:hover{
+    background-color: #ff9557;
+}
+
+.cart{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.language{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.language:hover{
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+}
+
+.profile{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #3C3C3C;
+    color: #3C3C3C;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.profile:hover{
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+}
+
+.bottombar{
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.content{
+    margin-top: 80px;
+    width: 880px;
+}
+
+h2{
+    font-family: 'Arial', sans-serif; 
+    color: #001822;
+    text-shadow: 2px 3px 2px #D2D2D2; 
+    font-weight: bold; 
+    font-size: 150%;
+    font-weight: 750;
+}
+
+span{
+    color: #FFA16C;
+}
+
+p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+    font-weight: 530;
+}
+
+.mail-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.mailmini{
+    height: 42px;
+    border: #FFA16C solid 2px;
+    border-radius: 25px 25px 25px 25px ;
+}
+
+.mail{
+    text-align: center;
+    
+    
+    border-radius: 25px 0 0 25px ;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: #FFA16C solid 2px;
+    border: none;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+::placeholder{
+    
+    font-size: 90%;
+}
+
+.mail-button{
+    
+    width: 140px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-left: none;
+    border: #FFA16C solid 2px;
+    color: #FFFFFF;
+    background-color: #FFA16C;
+}
+
+
+
+.base{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    background-color: #FFFFFF;
+    border-radius:  0 0 10px 10px;
+    height: 60px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C3C3C;
+    font-size: 80%;
+    font-weight: 50;
+    padding-right: 20px;
+}
+
+.rightbase{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.book{
+    margin: 5px;
+}

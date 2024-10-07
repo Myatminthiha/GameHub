@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart</title>
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="leftbar">
+                <img class="logo" src="./R&Timgs/logo.png" alt="LOGO">
+                <div class="linkcontainer">
+                    <a href="Roast&Toast_home.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="history.html">History</a>
+                    <a href="partner.html">Partner</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="rightbar">
+                <div class="topbar">
+                    <button class="booking" onclick="location.href='booking.html';"><i class="fa-regular fa-calendar book"></i>Book Here</button>
+                    <div class="search-container">
+                        <span class="icon-container">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg>
+                        </span>
+                        <input class="search" type="text" placeholder="Search...">
+                    <button class="search-button">Search</button>
+                    </div>
+                    <a href="cart.html"><button class="cart"><i class="fa-solid fa-cart-shopping book"></i>Your Cart</button></a>
+                    <select class="language" name="Languages" id="">
+                        <option value="eng" selected>ENG</option>
+                        <option value="myan">MMR</option>
+                        <option value="thai">THA</option>
+                        <option value="china">CHN</option>
+                    </select>
+                    <a href="register.html"><button class="profile"><i class="fa-solid fa-user book"></i>Your Profile</button></a>
+                </div>
+                <div class="bottombar">
+                    
+                    <div class="main-hero">
+                        <div class="hero">
+
+                            <div class="left">
+                                <div class="top-left">
+                                    <img src="./R&Timgs/cappuccino.png" alt="">
+                                </div>
+                                <div class="bottom-left">
+                                    <p>$4.99</p>
+                                </div>
+                            </div>
+    
+                            <div class="middle">
+                                <div class="top-middle">
+                                    <p>Cappuccino</p>
+                                </div>
+                                <div class="middle-middle">
+                                    <p>SIZE &nbsp;&nbsp;&nbsp;&nbsp; :  &nbsp;
+                                        <select name="size" id="">
+                                            <option value="small">S</option>
+                                            <option value="large">L</option>
+                                        </select>
+                                    </p>
+    
+                                    <p>Quantity :  &nbsp;
+                                        <select name="quantity" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </p>
+    
+                                    <p>Location : &nbsp;<input class="location-input" type="text" placeholder="Enter your address" required></p>
+                                    
+                                </div>
+    
+                                <div class="bottom-middle">
+                                    <p>Payment :
+                                        <div class="options">
+                                            <input type="radio" name="cardOrCash" id="card" checked>
+                                            <label for="card">Card</label>
+                                            <br>
+                                            <input type="radio" name="cardOrCash" id="cash">
+                                            <label for="cash">Cash</label>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="right">
+    
+                                <div class="top-right">
+                                    <a href="menu.html"><button class="btn1">x</button></a>
+                                </div>
+    
+                                <div class="bottom-right">
+                                    <a href="order-confirmation.html"><button class="btn">ORDER</button></a>
+                                </div>
+                            </div>
+    
+                            
+    
+                        </div>
+
+                        <div class="hero2">
+
+                            <div class="payment-container">
+                                <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: 200;">Payment</h3>
+                                <div class="methods">
+
+                                    <a href="https://www.paypal.com/agreements/approve?nolegacy=1&ba_token=BA-24R93770SG013554G" target="_blank">
+                                        <button class="top-payment">
+                                            <p style="color: rgb(105, 104, 104); font-size: 15px;">Paypal</p>
+                                            <p style="color: #FFA16C; font-weight: bold;">></p>
+                                        </button>
+                                    </a>
+
+                                    <a href="https://login.payoneer.com/?sessionDataKey=cc1792d3dfdf4d109bf438715569c86f----&state=2deaccbd-513b-4935-916a-21a48d2fa39e&provider_id=internal&client_id=b3d186db-4e5d-49c8-8a12-5753136af807&redirect_uri=https%3A%2F%2Fmyaccount.brand.domain%2Flogin%2Flogin.aspx&scope=myaccount+openid&response_type=code" target="_blank">
+                                        <button class="top-payment">
+                                            <p style="color: rgb(105, 104, 104); font-size: 15px;">Payoneer</p>
+                                            <p style="color: #FFA16C; font-weight: bold;">></p>
+                                        </button>
+                                    </a>
+
+                                    <a href="https://pst.net/cards/ultima?utm_source=adwords_ultimabg&utm_term=debit+card&utm_campaign=&utm_medium=ppc&hsa_acc=7753264562&hsa_cam=21095164284&hsa_grp=162916435627&hsa_ad=693670567425&hsa_src=g&hsa_tgt=kwd-10278176&hsa_kw=debit+card&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwu-63BhC9ARIsAMMTLXTH7TF2opTQaZo7mwdv4dpKUKfSPfXw1_mJE3ptoyyKDIcCCUag3LUaAnvuEALw_wcB" target="_blank">
+                                        <button class="top-payment">
+                                            <p style="color: rgb(105, 104, 104); font-size: 15px;">Debit Card</p>
+                                            <p style="color: #FFA16C; font-weight: bold;">></p>
+                                        </button>
+                                    </a>
+                                </div>
+
+                                <div class="credit-card">
+                                    <p style="color: rgb(105, 104, 104); font-size: 15px; padding-top:10px ;">Credit Card</p>
+
+                                    <div class="card-number">
+                                        <p style="color: rgb(105, 104, 104); font-size: 13px;">Card Number</p>
+                                        
+                                        <div class="master-card">
+                                            <img src="./R&Timgs/master-card.png" width="25px" height="15px" alt="" style="margin-right: 10px;">
+                                            <p>**** **** **** 4791</p>
+                                            <p>></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="bottom-holder">
+                                        <div class="month-year">
+                                            <p style="color: rgb(105, 104, 104); font-size: 13px;">MM/YY</p>
+                                            <div class="mm-yy">
+                                                <p>**** ****</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="CVC">
+                                            <p style="color: rgb(105, 104, 104); font-size: 13px;">CVC</p>
+                                            <div class="mm-yy">
+                                                <p>***</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <form action="" class="bot-container">
+                                    <div class="end">
+                                        <input type="checkbox" required>
+                                        <p style="font-size: 10px;">Click to accept our terms and conditions to place the order</p>
+                                    </div>
+        
+                                        
+                                    <input type="submit" value="CHECK OUT" class="btn2">
+                                 </form>
+                                
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>    
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
